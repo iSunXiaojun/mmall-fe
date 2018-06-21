@@ -2,7 +2,7 @@
 * @Author: iSunXiaojun
 * @Date:   2018-01-31 15:45:01
 * @Last Modified by:   iSunXiaojun
-* @Last Modified time: 2018-01-31 17:26:42
+* @Last Modified time: 2018-06-21 20:22:42
 */
 
 'use strict';
@@ -14,9 +14,9 @@ var navSide = {
     option : {
         name : '',
         navList : [
-            {name : 'user-center', desc : '个人中心', href : './use-center.html'},
+            {name : 'user-center', desc : '个人中心', href : './user-center.html'},
             {name : 'order-list', desc : '我的订单', href : './order-list.html'},
-            {name : 'pass-update', desc : '修改密码', href : './pass-update.html'},
+            {name : 'user-pass-update', desc : '修改密码', href : './user-pass-update.html'},
             {name : 'about', desc : '关于MMall', href : './about.html'}
         ]
     },

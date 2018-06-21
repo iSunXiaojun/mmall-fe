@@ -1,8 +1,8 @@
 /*
 * @Author: iSunXiaojun
 * @Date:   2018-01-29 16:54:42
-* @Last Modified by:   iSunXiaojun
-* @Last Modified time: 2018-01-30 13:55:34
+* @Last Modified by:   SUN
+* @Last Modified time: 2018-06-11 16:09:47
 */
 /* css reset */
 *{
@@ -32,6 +32,26 @@ input[type='checkbox']{
     width: 1080px;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
+}
+
+/* panel */
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+
+.panel .panel-body{
+    padding: 10px;
     overflow: hidden;
 }
 

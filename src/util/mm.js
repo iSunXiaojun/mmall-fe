@@ -2,7 +2,7 @@
 * @Author: SUN
 * @Date:   2018-01-09 14:25:25
 * @Last Modified by:   iSunXiaojun
-* @Last Modified time: 2018-01-29 16:44:27
+* @Last Modified time: 2018-06-21 16:51:17
 */
 'use strict';
 var Hogan = require('hogan.js');
@@ -78,7 +78,7 @@ var _mm = {
     },
     // 统一登录处理
     doLogin : function(){
-        window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+        window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
     },
     goHome : function(){
         window.location.href = './index.html';

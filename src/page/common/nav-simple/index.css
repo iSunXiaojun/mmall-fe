@@ -2,7 +2,7 @@
 * @Author: iSunXiaojun
 * @Date:   2018-01-30 13:34:42
 * @Last Modified by:   iSunXiaojun
-* @Last Modified time: 2018-01-30 13:40:07
+* @Last Modified time: 2018-05-26 13:24:14
 */
 .nav-simple{
     height: 60px;
@@ -14,4 +14,5 @@
     font-size: 26px;
     font-weight: bold;
     color: #c60023;
+    text-decoration: none;
 }

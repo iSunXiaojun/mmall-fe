@@ -2,7 +2,7 @@
 * @Author: iSunXiaojun
 * @Date:   2017-12-30 22:41:41
 * @Last Modified by:   iSunXiaojun
-* @Last Modified time: 2018-01-31 17:28:14
+* @Last Modified time: 2018-06-21 21:33:52
 */
 
 'use strict';
@@ -12,5 +12,5 @@ var navSide = require('page/common/nav-side/index.js');
 var _mm = require('util/mm.js');
 
 navSide.init({
-    name : 'pass-update'
+    name : 'user-center'
 });
